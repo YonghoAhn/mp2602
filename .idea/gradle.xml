@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -15,6 +16,10 @@
             <option value="$PROJECT_DIR$/mp0304" />
             <option value="$PROJECT_DIR$/mp0305" />
             <option value="$PROJECT_DIR$/mp0306" />
+            <option value="$PROJECT_DIR$/mp0401" />
+            <option value="$PROJECT_DIR$/mp0402" />
+            <option value="$PROJECT_DIR$/mp0403" />
+            <option value="$PROJECT_DIR$/mp0404" />
           </set>
         </option>
       </GradleProjectSettings>

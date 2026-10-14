@@ -75,6 +75,7 @@
       <SelectionState runConfigName="mp0501">
       <SelectionState runConfigName="mp0502">
       <SelectionState runConfigName="mp0503">
+      <SelectionState runConfigName="mp0504">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>

@@ -72,11 +72,9 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-<<<<<<< Updated upstream
       <SelectionState runConfigName="mp0501">
-=======
       <SelectionState runConfigName="mp0502">
->>>>>>> Stashed changes
+      <SelectionState runConfigName="mp0503">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>

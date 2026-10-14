@@ -20,11 +20,9 @@
             <option value="$PROJECT_DIR$/mp0402" />
             <option value="$PROJECT_DIR$/mp0403" />
             <option value="$PROJECT_DIR$/mp0404" />
-<<<<<<< Updated upstream
             <option value="$PROJECT_DIR$/mp0501" />
-=======
             <option value="$PROJECT_DIR$/mp0502" />
->>>>>>> Stashed changes
+            <option value="$PROJECT_DIR$/mp0503" />
           </set>
         </option>
       </GradleProjectSettings>

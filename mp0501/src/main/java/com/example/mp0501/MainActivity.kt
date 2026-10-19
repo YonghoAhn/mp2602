@@ -34,16 +34,28 @@ class MainActivity : AppCompatActivity() {
         ivObj=findViewById(R.id.imageView2)
 
         btObj1.setOnClickListener {
-            // TODO : event handler
+            ivObj.visibility = View.VISIBLE
+            ivObj.setImageResource(R.drawable.answer1)
+            Toast.makeText(applicationContext, "틀렸습니다", Toast.LENGTH_SHORT).show()
         }
         btObj2.setOnClickListener(View.OnClickListener	{
-            // TODO : event handler
+            ivObj.visibility = View.VISIBLE
+            ivObj.setImageResource(R.drawable.answer2)
+            Toast.makeText(applicationContext, "맞았습니다", Toast.LENGTH_SHORT).show()
         })
         btObj3.setOnClickListener(object : View.OnClickListener	{
-            // TODO : event handler
+            override	fun	onClick(p0:	View?)	{
+                ivObj.visibility = View.VISIBLE
+                ivObj.setImageResource(R.drawable.answer3)
+                Toast.makeText(applicationContext, "틀렸습니다", Toast.LENGTH_SHORT).show();
+            }
         })
         btObj4.setOnClickListener(object : View.OnClickListener {
-            // TODO : event handler
+            override fun onClick(p0: View?) {
+                ivObj.visibility = View.VISIBLE
+                ivObj.setImageResource(R.drawable.answer4)
+                Toast.makeText(applicationContext, "틀렸습니다", Toast.LENGTH_SHORT).show();
+            }
         })
     }
 }

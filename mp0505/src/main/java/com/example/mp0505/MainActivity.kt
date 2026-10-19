@@ -36,10 +36,22 @@ class MainActivity : AppCompatActivity() {
         ivObj2=findViewById(R.id.imageView2)
 
         sObj1.setOnCheckedChangeListener{	buttonView,	isChecked->
-            // TODO : event handler
+            if	(isChecked)
+                ivObj1.visibility = View.INVISIBLE
+            else
+                ivObj1.visibility = View.VISIBLE
         }
         sObj2.setOnCheckedChangeListener{	buttonView,		isChecked->
-            // TODO  event handler
+            if	(isChecked)	{
+                tvObj.setBackgroundColor(Color.argb(40,	200,200,200))
+                ivObj2.setImageResource(R.drawable.light32)
+                sObj2.setThumbResource(R.drawable.on3)
+            }
+            else	{
+                tvObj.setBackgroundColor(Color.argb(200,	200,200,200))
+                ivObj2.setImageResource(R.drawable.light31)
+                sObj2.setThumbResource(R.drawable.off3)
+            }
         }
     }
 }
